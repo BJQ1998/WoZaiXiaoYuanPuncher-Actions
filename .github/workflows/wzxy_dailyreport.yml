@@ -49,7 +49,7 @@ jobs:
         WZXY_TOWNSHIP: ${{secrets.TOWNSHIP}}
         WZXY_STREET: ${{secrets.STREET}}
         WZXY_CITY_CODE: ${{secrets.CITY_CODE}}
-        WZXY_TOWN_CODE: ${{secrets.TOWN_CODE}}
+        WZXY_TOWNCODE: ${{secrets.TOWNCODE}}
       run: python wzxy-dailyreport.py
   
   ## 多账户配置示例，请复制下面的代码后取消注释再修改，粘贴时注意缩进
